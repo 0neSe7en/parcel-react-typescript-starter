@@ -1,0 +1,41 @@
+{
+  "name": "parcel-react-typescript-starter",
+  "version": "1.0.0",
+  "description": "Parcel, React, TypeScript, Tailwindcss",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --https",
+    "build": "parcel build",
+    "test": "jest",
+    "lint": "eslint",
+    "check": "tsc --noEmit",
+    "ci": "yarn build && yarn test && yarn lint && yarn check"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0neSe7en/parcel-react-typescript-starter.git"
+  },
+  "author": "0neSe7en <siyuan.se7en@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0neSe7en/parcel-react-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/0neSe7en/parcel-react-typescript-starter#readme",
+  "devDependencies": {
+    "@parcel/config-default": "^2.0.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "autoprefixer": "^10.3.7",
+    "parcel": "^2.0.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
